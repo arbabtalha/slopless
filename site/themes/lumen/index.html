@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>quarry, open models on reserved GPUs</title>
+<title>quarry, open models on reserved GPUs | Slopless demo</title>
 <meta name="description" content="Quarry runs open models on reserved GPUs at a fixed price per million tokens, with no cold starts.">
 <link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,6 +11,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Geist:wght@400;500&family=Geist+Mono:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <script>document.documentElement.classList.add('js');</script>
+
+<link rel="stylesheet" href="../../demo.css">
+<meta name="robots" content="noindex,follow">
 </head>
 <body>
 <a class="skip" href="#main">Skip to the page</a>
@@ -204,8 +207,9 @@ console.log((<i>await</i> r.json()).output);</code></pre>
   </div>
 </footer>
 
-<script>window.hallmarkSlots = (m) => { for (const [k, v] of Object.entries(m)) { const s = document.querySelector(`[data-slot="${k}"]`); if (!s) continue; const im = new Image(); im.src = typeof v === 'string' ? v : v.src; im.alt = (typeof v === 'object' && v.alt) || s.dataset.alt || ''; s.querySelectorAll(':scope > img').forEach((o) => o.remove()); s.prepend(im); } };
+<script>window.sloplessSlots = (m) => { for (const [k, v] of Object.entries(m)) { const s = document.querySelector(`[data-slot="${k}"]`); if (!s) continue; const im = new Image(); im.src = typeof v === 'string' ? v : v.src; im.alt = (typeof v === 'object' && v.alt) || s.dataset.alt || ''; s.querySelectorAll(':scope > img').forEach((o) => o.remove()); s.prepend(im); } };
 document.querySelectorAll('[data-slot] > img').forEach((i) => { if (i.complete && !i.naturalWidth) i.remove(); else i.addEventListener('error', () => i.remove(), { once: true }); });</script>
 <script src="page.js"></script>
+<aside class="slopless-demo-bar" data-slopless-demo aria-label="Demo navigation"><a href="../../" class="slopless-demo-brand">S/ <strong>Slopless</strong></a><span>Lumen · demonstration only</span><a href="../../#materials">Back to materials ↗</a></aside>
 </body>
 </html>

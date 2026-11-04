@@ -1,12 +1,12 @@
-/* Hallmark · shape: Narrative Workflow · genre: modern-minimal · theme: Cobalt (deal 1/3, seed database-gui-7418·98838caf·2026-10-20·r0) · draw: a52fcf
+/* Slopless · shape: Narrative Workflow · genre: modern-minimal · theme: Cobalt (deal 1/3, seed database-gui-7418·98838caf·2026-10-20·r0) · draw: a52fcf
  * hero: Settled (swapped from Corridor: a software page leads with its interface) · nav: banner over a retracting bar · footer: mast · imagery: the product built in 9 slots, no photographs · signature: the same six pending orders as psql prints them and as Rowan shows them, one toggle apart, with the edit staged
  * axes: light/grotesk-sans/cool · posture: restrained · contrast: pass · fold: pass · v2.8.0 */
-/* Hallmark · pre-emit critique: P4 H4 E4 S4 R4 V4 · weakest: P, a GUI page argues ease by default; argued safety instead, every stage ends in SQL you can read, and the hero puts psql's no-review write beside the staged one */
-/* Hallmark · hero-review: fix (run after the page, not before) · 5 findings · 5 resolved · finish-review: subagent · 8 findings · 7 resolved 1 dismissed (8: the psql view already hides the staging bar) · gap: psql only lived in the hero, now it returns in Commit */
-/* Hallmark · waive 77 · one head, one line and the download form, once on this page · the four stages already carry the weight, so the close only asks for the email that gets Rowan */
-/* Hallmark · dismissed 58 · about 230 of the counted words are sample rows, SQL and schema inside the built Rowan window; the copy itself is under 320 */
-/* Hallmark · answered F4 · .app__btn is the Review SQL button drawn inside the Rowan window sample, not a page control; the page has one primary */
-/* Hallmark · answered F25 · on a phone the Rowan sample tables drop the customer, time, email, city and key columns so id and the edited value stay in view */
+/* Slopless · pre-emit critique: P4 H4 E4 S4 R4 V4 · weakest: P, a GUI page argues ease by default; argued safety instead, every stage ends in SQL you can read, and the hero puts psql's no-review write beside the staged one */
+/* Slopless · hero-review: fix (run after the page, not before) · 5 findings · 5 resolved · finish-review: subagent · 8 findings · 7 resolved 1 dismissed (8: the psql view already hides the staging bar) · gap: psql only lived in the hero, now it returns in Commit */
+/* Slopless · waive 77 · one head, one line and the download form, once on this page · the four stages already carry the weight, so the close only asks for the email that gets Rowan */
+/* Slopless · dismissed 58 · about 230 of the counted words are sample rows, SQL and schema inside the built Rowan window; the copy itself is under 320 */
+/* Slopless · answered F4 · .app__btn is the Review SQL button drawn inside the Rowan window sample, not a page control; the page has one primary */
+/* Slopless · answered F25 · on a phone the Rowan sample tables drop the customer, time, email, city and key columns so id and the edited value stay in view */
 @import url("./tokens.css");
 @import url("./base.css");
 

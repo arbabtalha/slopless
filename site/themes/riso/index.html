@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Off Register: risograph prints in Leith from 40p a sheet</title>
+<title>Off Register: risograph prints in Leith from 40p a sheet | Slopless demo</title>
 <meta name="description" content="Off Register is a risograph print studio in Leith: two-colour prints from 40p a sheet, open studio days, and a zine table on Sundays.">
 <link rel="preconnect" href="https://api.fontshare.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,6 +11,9 @@
 <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="../../demo.css">
+<meta name="robots" content="noindex,follow">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -160,7 +163,7 @@
 </footer>
 
 <script>
-window.hallmarkSlots = (m) => { for (const [k, v] of Object.entries(m)) { const s = document.querySelector(`[data-slot="${k}"]`); if (!s) continue; const im = new Image(); im.src = typeof v === 'string' ? v : v.src; im.alt = (typeof v === 'object' && v.alt) || s.dataset.alt || ''; s.querySelectorAll(':scope > img').forEach((o) => o.remove()); s.prepend(im); } };
+window.sloplessSlots = (m) => { for (const [k, v] of Object.entries(m)) { const s = document.querySelector(`[data-slot="${k}"]`); if (!s) continue; const im = new Image(); im.src = typeof v === 'string' ? v : v.src; im.alt = (typeof v === 'object' && v.alt) || s.dataset.alt || ''; s.querySelectorAll(':scope > img').forEach((o) => o.remove()); s.prepend(im); } };
 document.querySelectorAll('[data-slot] img').forEach((i) => { if (i.complete && !i.naturalWidth) i.remove(); else i.addEventListener('error', () => i.remove(), { once: true }); });
 (() => {
   const input = document.getElementById('sheets'); const out = document.querySelector('.calc__total');
@@ -172,5 +175,6 @@ document.querySelectorAll('[data-slot] img').forEach((i) => { if (i.complete && 
   render();
 })();
 </script>
+<aside class="slopless-demo-bar" data-slopless-demo aria-label="Demo navigation"><a href="../../" class="slopless-demo-brand">S/ <strong>Slopless</strong></a><span>Riso · demonstration only</span><a href="../../#materials">Back to materials ↗</a></aside>
 </body>
 </html>

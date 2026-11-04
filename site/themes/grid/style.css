@@ -1,8 +1,8 @@
-/* Hallmark · shape: Poster Sequence (owner's rebuild) · genre: editorial · theme: Grid (by request) · draw: 3d12ff, swapped for the owner's brief: shape, hero, nav, footer
+/* Slopless · shape: Poster Sequence (owner's rebuild) · genre: editorial · theme: Grid (by request) · draw: 3d12ff, swapped for the owner's brief: shape, hero, nav, footer
  * hero: Poster, the head crossing an ultramarine field from column 7 · nav: poster head, the wordmark on the paper and the links on the field · footer: mast, the wordmark at three columns beside its red square · imagery: photographs, library 1, duotone ink paper-2 con=12 · signature: the head that changes ink where it crosses the field · grid: ultramarine field, red mark
  * axes: light/grotesk-sans/cool · posture: full-palette · contrast: pass · fold: pass · v2.8.0 */
-/* Hallmark · waive 39b · the 26 alphabet buttons at 94px · the letters are the index set at display size as a specimen, glyph-sized targets rather than marketing controls */
-/* Hallmark · pre-emit critique: P4 H4 E4 S4 R4 V4 · weakest: S, the brief has three fields and one figure, so every section is a working way into them rather than a claim */
+/* Slopless · waive 39b · the 26 alphabet buttons at 94px · the letters are the index set at display size as a specimen, glyph-sized targets rather than marketing controls */
+/* Slopless · pre-emit critique: P4 H4 E4 S4 R4 V4 · weakest: S, the brief has three fields and one figure, so every section is a working way into them rather than a claim */
 @import url("./tokens.css");
 @import url("./base.css");
 

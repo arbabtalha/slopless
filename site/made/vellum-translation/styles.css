@@ -1,8 +1,8 @@
-/* Hallmark · shape: Conversational FAQ · genre: editorial · theme: Vellum (by request) · draw: 6b935a
+/* Slopless · shape: Conversational FAQ · genre: editorial · theme: Vellum (by request) · draw: 6b935a
  * hero: Stage (swapped from the dealt Corridor: the six directions need the width) · nav: masthead · footer: newsletter-first (an enquiry form leads) · imagery: photographs, library 1, warm con=6 · signature: the six directions set as a contents page beside the head, numbered in gold · vellum: oxblood, reversed
  * axes: dark/blackletter/warm · posture: committed · contrast: pass · fold: pass · v2.7.0 */
-/* Hallmark · pre-emit critique: P4 H4 E4 S5 R5 V5 · weakest: H, a word-led page risks a run of heads and lines; each question takes a different body (statement, showcase, table, rows, form) */
-/* Hallmark · hero-review: fix · 5 findings · 4 resolved 1 partial (the contents page is the set piece; no picture in the fold on a word-led page) · finish-review: subagent · 6 findings · 5 resolved 1 partial (the submit keeps its own verb) · gap: none */
+/* Slopless · pre-emit critique: P4 H4 E4 S5 R5 V5 · weakest: H, a word-led page risks a run of heads and lines; each question takes a different body (statement, showcase, table, rows, form) */
+/* Slopless · hero-review: fix · 5 findings · 4 resolved 1 partial (the contents page is the set piece; no picture in the fold on a word-led page) · finish-review: subagent · 6 findings · 5 resolved 1 partial (the submit keeps its own verb) · gap: none */
 @import url("./tokens.css");
 @import url("./base.css");
 

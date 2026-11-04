@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * make-pack.mjs - compile the Hallmark skill text into a single system prompt.
+ * make-pack.mjs - compile the Slopless skill text into a single system prompt.
  *
  * Two packs:
  *   --pack floor  SKILL.md "The Floor" + "Flow" sections only,
@@ -22,7 +22,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const EVAL_DIR = dirname(fileURLToPath(import.meta.url));
-const SKILL_DIR = resolve(EVAL_DIR, "..", "skills", "hallmark");
+const SKILL_DIR = resolve(EVAL_DIR, "..", "skills", "slopless");
 const SKILL_MD = resolve(SKILL_DIR, "SKILL.md");
 const REFS = resolve(SKILL_DIR, "references");
 
@@ -30,7 +30,7 @@ const REFS = resolve(SKILL_DIR, "references");
 // scripts; a bare chat completion has neither, so the output contract must be
 // restated up front. Kept to three lines by design.
 const PREAMBLE = [
-  "You are running the Hallmark design skill. Produce a complete single-file index.html with all of its CSS inline in one <style> tag and any JS inline; no build step, no external images (Google Fonts via <link> is allowed).",
+  "You are running the Slopless design skill. Produce a complete single-file index.html with all of its CSS inline in one <style> tag and any JS inline; no build step, no external images (Google Fonts via <link> is allowed).",
   "You have no file system, no scripts, and no tools: apply every rule below yourself, including the slop gates, before you emit. Real copy only, no lorem ipsum, no placeholder boxes.",
   "Output the final page as ONE fenced ```html block from <!doctype html> to </html>. Emitting that block ends the task; write nothing after it.",
 ].join("\n");
@@ -85,7 +85,7 @@ function buildFloor() {
   ];
   const text =
     PREAMBLE +
-    sep("skills/hallmark/SKILL.md (The Floor + Flow)") +
+    sep("skills/slopless/SKILL.md (The Floor + Flow)") +
     parts[1].text +
     "\n\n" +
     parts[2].text +
@@ -95,9 +95,9 @@ function buildFloor() {
 
 function buildFull() {
   const files = [
-    ["skills/hallmark/SKILL.md", SKILL_MD, (t) => t],
-    ["skills/hallmark/references/craft.md", resolve(REFS, "craft.md"), (t) => t],
-    ["skills/hallmark/references/gates.md (gate table portion)", resolve(REFS, "gates.md"), gatePortion],
+    ["skills/slopless/SKILL.md", SKILL_MD, (t) => t],
+    ["skills/slopless/references/craft.md", resolve(REFS, "craft.md"), (t) => t],
+    ["skills/slopless/references/gates.md (gate table portion)", resolve(REFS, "gates.md"), gatePortion],
   ];
   const parts = [{ label: "preamble (3 lines)", text: PREAMBLE }];
   let text = PREAMBLE;

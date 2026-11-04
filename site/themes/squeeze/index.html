@@ -3,12 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Peachy: whatever&rsquo;s ripest, every Thursday, across London</title>
+<title>Peachy: whatever&rsquo;s ripest, every Thursday, across London | Slopless demo</title>
 <meta name="description" content="Peachy is a weekly fruit box for London families: four sizes from 12 pounds, packed with whatever is ripest that week and delivered on Thursdays.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@800&family=Manrope:wght@500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="../../demo.css">
+<meta name="robots" content="noindex,follow">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -128,7 +131,7 @@
   </div>
 </footer>
 
-<script>window.hallmarkSlots = (m) => { for (const [k, v] of Object.entries(m)) { const s = document.querySelector(`[data-slot="${k}"]`); if (!s) continue; const im = new Image(); im.src = typeof v === 'string' ? v : v.src; im.alt = (typeof v === 'object' && v.alt) || s.dataset.alt || ''; s.querySelectorAll(':scope > img').forEach((o) => o.remove()); s.prepend(im); } };
+<script>window.sloplessSlots = (m) => { for (const [k, v] of Object.entries(m)) { const s = document.querySelector(`[data-slot="${k}"]`); if (!s) continue; const im = new Image(); im.src = typeof v === 'string' ? v : v.src; im.alt = (typeof v === 'object' && v.alt) || s.dataset.alt || ''; s.querySelectorAll(':scope > img').forEach((o) => o.remove()); s.prepend(im); } };
 document.querySelectorAll('[data-slot] > img').forEach((i) => { if (i.complete && !i.naturalWidth) i.remove(); else i.addEventListener('error', () => i.remove(), { once: true }); });</script>
 <script>
   (() => {
@@ -162,5 +165,6 @@ document.querySelectorAll('[data-slot] > img').forEach((i) => { if (i.complete &
     });
   })();
 </script>
+<aside class="slopless-demo-bar" data-slopless-demo aria-label="Demo navigation"><a href="../../" class="slopless-demo-brand">S/ <strong>Slopless</strong></a><span>Squeeze · demonstration only</span><a href="../../#materials">Back to materials ↗</a></aside>
 </body>
 </html>

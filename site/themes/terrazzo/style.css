@@ -1,8 +1,8 @@
-/* Hallmark · shape: Sample Drawer (custom: one surface from each family set as a true set over the head, the library's count on the ink band, the surfaces up close as a showcase, the catalogue as a filterable specification table, borrowing as steps beside a sample, the visit as a request card) · genre: modern-minimal · theme: Terrazzo (by request)
+/* Slopless · shape: Sample Drawer (custom: one surface from each family set as a true set over the head, the library's count on the ink band, the surfaces up close as a showcase, the catalogue as a filterable specification table, borrowing as steps beside a sample, the visit as a request card) · genre: modern-minimal · theme: Terrazzo (by request)
  * hero: Ledge, four surface cards across the top and the head resting at the base · nav: search-led bar, the wordmark, a working catalogue search and the booking action · footer: mast, the wordmark at full width over the links · imagery: photographs, library 8, natural con=4 · sample: the codes, finishes and sizes in the catalogue are stand-ins for the library's own · terrazzo: off-white
  * axes: light/geometric-sans/warm · posture: restrained · contrast: pass · fold: pass · v2.8.0 */
-/* Hallmark · pre-emit critique: P4 H5 E4 S5 R4 V4 · weakest: R, eight photographs is the edge of the budget, so four are a true set in the hero and the catalogue's other rows are carried in the table with no picture at all */
-/* Hallmark · dismissed F6 · .count__unit holds the word surfaces beneath the figure and sets no numerals */
+/* Slopless · pre-emit critique: P4 H5 E4 S5 R4 V4 · weakest: R, eight photographs is the edge of the budget, so four are a true set in the hero and the catalogue's other rows are carried in the table with no picture at all */
+/* Slopless · dismissed F6 · .count__unit holds the word surfaces beneath the figure and sets no numerals */
 @import url("./tokens.css");
 @import url("./base.css");
 

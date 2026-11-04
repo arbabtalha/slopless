@@ -1,8 +1,8 @@
-/* Hallmark · shape: Workbench · genre: atmospheric · theme: Kiln (by request) · data: sample · v2.8 launch pass
+/* Slopless · shape: Workbench · genre: atmospheric · theme: Kiln (by request) · data: sample · v2.8 launch pass
  * hero: Stage · sections: showcase (the firing view), statement (the warning), table (the log, peaks keyed to the ramp), showcase pair at 8 and 4, band (the price as the figure) · nav: edge-aligned, two links and a ghost pill · footer: colophon block · kiln: ember
  * imagery: photographs, library 3, warm con8 exp-6 · product sample in the hero phone, the firing view and the log; the bisque photograph cut for the log at full width
  * axes: dark/high-contrast-serif/warm · posture: full-palette · contrast: pass · fold: pass · v2.8.0 */
-/* Hallmark · pre-emit critique: P4 H5 E4 S5 R5 V4 · weakest: V, the library still has no kiln at temperature, so the heat stays in the product's curve, the warning set large and the ramp keys in the log */
+/* Slopless · pre-emit critique: P4 H5 E4 S5 R5 V4 · weakest: V, the library still has no kiln at temperature, so the heat stays in the product's curve, the warning set large and the ramp keys in the log */
 @import url("./tokens.css");
 @import url("./base.css");
 

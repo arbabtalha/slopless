@@ -1,8 +1,8 @@
-/* Hallmark · shape: Back of the Can (the name, the number, the label, what goes in, the box) · genre: playful · theme: Halftone (by request)
+/* Slopless · shape: Back of the Can (the name, the number, the label, what goes in, the box) · genre: playful · theme: Halftone (by request)
  * hero: Settled, the lemon on a spot field breaking into the screen at its edge · nav: slab, a full-width ink bar on a three-pixel spot rule, the Ultra wordmark in cream, two links and the spot action · footer: statement, one closing line knocked out of the ink · imagery: photographs, library 4, full colour · signature: 39 set as a poster in solid spot Ultra beside the cut lemon, then the back of the can as a panel of ruled rows · halftone: cream
  * axes: light/slab-serif/warm · posture: committed · contrast: pass · fold: pass · v2.8.0 */
-/* Hallmark · dismissed F4 · the spot primary cannot print on the spot band, so the box buys in ink there and in spot everywhere else */
-/* Hallmark · pre-emit critique: P4 H5 E4 S4 R4 V4 · weakest: S, the library holds no can, so the can's own numbers carry the page in Ultra and the photographs show only what goes in it */
+/* Slopless · dismissed F4 · the spot primary cannot print on the spot band, so the box buys in ink there and in spot everywhere else */
+/* Slopless · pre-emit critique: P4 H5 E4 S4 R4 V4 · weakest: S, the library holds no can, so the can's own numbers carry the page in Ultra and the photographs show only what goes in it */
 @import url("./tokens.css");
 @import url("./base.css");
 

@@ -1,9 +1,9 @@
-/* Hallmark · shape: the seam, sections split down the middle with shared things laid across it · genre: editorial · theme: custom · job: sign up · idea: "every dollar has an owner, yours on the left, mine on the right, ours across the line between" · vibe: "two colours, one line, fair and frank"
+/* Slopless · shape: the seam, sections split down the middle with shared things laid across it · genre: editorial · theme: custom · job: sign up · idea: "every dollar has an owner, yours on the left, mine on the right, ours across the line between" · vibe: "two colours, one line, fair and frank"
  * paper: oklch(97.6% 0.006 240) · accent: oklch(46% 0.17 262) · display: Funnel Display 700 · body: Onest 400/700 · hero: the screen split marigold and sky at a seam the visitor drags, the head mirrored across it, the rent bill laid open on it with the drag line running to the foot · nav: mirrored on the seam, links on the left half, the wordmark on the seam, the action on the right half · footer: a paper strip, the wordmark beside the section links, one closing line · imagery: none, the product built in four slots · signature: the line between you, dragged across the rent bill, which moves the whole first screen
  * axes: light/grotesk-heavy/warm · posture: full palette (yours marigold, mine sky, ours ink, paper for the product) · contrast: pass · fold: pass · v2.0.0 */
-/* Hallmark · pre-emit critique: P4 H4 E4 S5 R4 V4 · weakest: H, the mirrored hero has three centred masses; the rent bill leads, the lede and action mirror off the seam instead of stacking on it */
-/* Hallmark · hero-review: fix · 4 findings · 3 resolved 1 partial (the stack stays; the open seam line now carries it) */
-/* Hallmark · finish-review: subagent · 8 findings · 8 resolved · gap: none */
+/* Slopless · pre-emit critique: P4 H4 E4 S5 R4 V4 · weakest: H, the mirrored hero has three centred masses; the rent bill leads, the lede and action mirror off the seam instead of stacking on it */
+/* Slopless · hero-review: fix · 4 findings · 3 resolved 1 partial (the stack stays; the open seam line now carries it) */
+/* Slopless · finish-review: subagent · 8 findings · 8 resolved · gap: none */
 @import url("./tokens.css");
 @import url("./base.css");
 

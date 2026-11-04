@@ -3,12 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hollins Orchard: six acres of apples, yours to pick</title>
+<title>Hollins Orchard: six acres of apples, yours to pick | Slopless demo</title>
 <meta name="description" content="Hollins Orchard is a six-acre cider orchard in Herefordshire with 22 apple varieties, open for pick-your-own from September to October, selling three ciders.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@600&amp;family=Hanken+Grotesk:wght@400;500&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="../../demo.css">
+<meta name="robots" content="noindex,follow">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -134,7 +137,7 @@
   </div>
 </footer>
 
-<script>window.hallmarkSlots = (m) => { for (const [k, v] of Object.entries(m)) { const s = document.querySelector(`[data-slot="${k}"]`); if (!s) continue; const im = new Image(); im.src = typeof v === 'string' ? v : v.src; im.alt = (typeof v === 'object' && v.alt) || s.dataset.alt || ''; s.querySelectorAll(':scope > img').forEach((o) => o.remove()); s.prepend(im); } };
+<script>window.sloplessSlots = (m) => { for (const [k, v] of Object.entries(m)) { const s = document.querySelector(`[data-slot="${k}"]`); if (!s) continue; const im = new Image(); im.src = typeof v === 'string' ? v : v.src; im.alt = (typeof v === 'object' && v.alt) || s.dataset.alt || ''; s.querySelectorAll(':scope > img').forEach((o) => o.remove()); s.prepend(im); } };
 document.querySelectorAll('[data-slot] > img').forEach((i) => { if (i.complete && !i.naturalWidth) i.remove(); else i.addEventListener('error', () => i.remove(), { once: true }); });</script>
 <script>
 (() => {
@@ -168,5 +171,6 @@ document.querySelectorAll('form[data-endpoint]').forEach((form) => {
   });
 });
 </script>
+<aside class="slopless-demo-bar" data-slopless-demo aria-label="Demo navigation"><a href="../../" class="slopless-demo-brand">S/ <strong>Slopless</strong></a><span>Garden · demonstration only</span><a href="../../#materials">Back to materials ↗</a></aside>
 </body>
 </html>

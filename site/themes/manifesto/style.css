@@ -1,11 +1,11 @@
-/* Hallmark · job: join (a campaign: sign the petition) · shape: Manifesto · genre: editorial · theme: Manifesto (by request)
+/* Slopless · job: join (a campaign: sign the petition) · shape: Manifesto · genre: editorial · theme: Manifesto (by request)
  * hero: Ledge, no picture, the two named demands in Anton at poster size resting on the red pledge plate, the signature itself (name blank in the sentence, email, Add my name) as the foot of the first screen, MANUALS in red · sections: rows (the record of the demands), statement (the stacked creed), showcase (one board full-bleed), poster line (the vote date) over a two-step timeline with the signature again and a working copy-the-link · nav: slab, a paper-2 bar on a 4px ink rule with one red block · footer: mast, the coalition's name across the width · imagery: one library photograph, duotone paper ink
  * job close: a petition is signed where it is asked, so the form moved into the hero; the page ends on the vote date, the hero's action again and a way to pass it on, not a second form
  * axes: dark/display-condensed/warm · posture: committed · contrast: pass · fold: pass · v2.8.0 */
-/* Hallmark · waive 38iii · one red word, MANUALS, inside the hero head and nowhere else · the Manifesto theme spends its red word once on the demand it names */
-/* Hallmark · waive 39b · the name blank stands taller because it sits inside the pledge line at display size; the email field and its button stay 52px · the visitor signs the declaration in its own display type */
-/* Hallmark · waive 49b · the wordmark is the coalition's full name and stacks to two lines under 40rem, never three · the name cannot shorten, so it stacks on a phone instead of shrinking */
-/* Hallmark · waive 55b · every display line is its own nowrap span sized in cqi so it cannot wrap at 320px · Anton capitals lock into one block at 0.9 */
+/* Slopless · waive 38iii · one red word, MANUALS, inside the hero head and nowhere else · the Manifesto theme spends its red word once on the demand it names */
+/* Slopless · waive 39b · the name blank stands taller because it sits inside the pledge line at display size; the email field and its button stay 52px · the visitor signs the declaration in its own display type */
+/* Slopless · waive 49b · the wordmark is the coalition's full name and stacks to two lines under 40rem, never three · the name cannot shorten, so it stacks on a phone instead of shrinking */
+/* Slopless · waive 55b · every display line is its own nowrap span sized in cqi so it cannot wrap at 320px · Anton capitals lock into one block at 0.9 */
 @import url("./tokens.css");
 @import url("./base.css");
 

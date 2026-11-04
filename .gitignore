@@ -32,8 +32,8 @@ build/
 # Generation pipeline artifacts (raw outputs before commit)
 .image-cache/
 
-# Runtime state from Hallmark's own runs (per-project log, never publish)
-.hallmark/
+# Runtime state from Slopless's own runs (per-project log, never publish)
+.slopless/
 
 # `skills` CLI install lockfile: generated whenever 'skills add' runs in this
 # directory, not part of the skill source.
@@ -45,3 +45,8 @@ skills-lock.json
 
 # Local leftover from the old test thumbnails, never published.
 site/_tests/_thumbs/hum-02.jpg
+
+# Legacy state remains private during optional migration
+.hallmark/
+# Local screenshots and browser QA outputs
+.test-results/

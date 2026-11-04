@@ -1,9 +1,9 @@
-/* Hallmark · job: try · shape: Workbench · genre: atmospheric · theme: Bloom (by request; piano-roll paper) · draw: manual, v2.8 layout fix
+/* Slopless · job: try · shape: Workbench · genre: atmospheric · theme: Bloom (by request; piano-roll paper) · draw: manual, v2.8 layout fix
  * hero: Stage, from a hum to a score on a piano-roll grid that is the hero's ground: the hum trace draws, settles into quantised notes, four lanes grow beneath; Play really plays it · nav: the wordmark left, links and a rubber record pill right · footer: letter close · imagery: the product built three times (hero stage, the style deck, the finished take at the close), one library photograph (warm) (song name, key, tempo, timecodes and the five style names are samples) · signature: the hum becoming the band on one grid, played by the browser
  * sections: Figure and steps (the one Gambarino figure beside three steps, each with a small crop of the grid), Styles (a stack of tape spines that re-arrange the lanes, playable), Showcase (the guitars in an armchair at 16:9 under its head), Rows (questions on the warm band), Close (the action again beside the finished take on the grid, downloadable as a WAV made in the browser)
  * axes: light/grotesk-sans/warm · posture: committed · contrast: pass · fold: pass · v2.8.0 */
-/* Hallmark · waive 39b · a.rec-cta at 80px and button.spine at 64px · the record pill carries the rubber record button in its bezel, and each style is a whole tape spine pulled from the stack, so the object is the press target */
-/* Hallmark · close: the action again beside the finished song on the piano-roll grid; no email field, a try page ends on the app */
+/* Slopless · waive 39b · a.rec-cta at 80px and button.spine at 64px · the record pill carries the rubber record button in its bezel, and each style is a whole tape spine pulled from the stack, so the object is the press target */
+/* Slopless · close: the action again beside the finished song on the piano-roll grid; no email field, a try page ends on the app */
 @import url("tokens.css");
 @import url("base.css");
 

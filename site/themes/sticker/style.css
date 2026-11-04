@@ -1,9 +1,9 @@
-/* Hallmark · shape: Bento Grid (the offer on a die-cut photograph, the pack as a bento of die-cut fills, a statement on the ink band, three stuck-down steps, the counter on the lime field) · genre: playful · theme: Sticker (by request)
+/* Slopless · shape: Bento Grid (the offer on a die-cut photograph, the pack as a bento of die-cut fills, a statement on the ink band, three stuck-down steps, the counter on the lime field) · genre: playful · theme: Sticker (by request)
  * hero: Stage, mirrored, the die-cut photograph on seven columns turned two degrees and the head on five · nav: slab, an ink bar with the wordmark, two links and a live basket count · footer: letter close, a thank-you in Bowlby signed with the wordmark on a pink die-cut tag · imagery: photographs, library 1, natural vib=15 con=5 · signature: the pack set as die-cut fills, the five at twelve rem on hot pink · sticker: sheet
  * sections: hero Stage, bento of four fact fills, statement on the ink band, steps on stuck-down cards, form on the lime band, footer letter close
  * axes: light/display-heavy/chromatic-magenta · posture: full-palette · contrast: pass · fold: pass · v2.8.0 */
-/* Hallmark · dismissed 23 · the meter fill is a 28px lime bar inside the counter card, scaled by its own transform, never a fill at viewport scale */
-/* Hallmark · the library holds one sticker photograph; the hero carries it and the fills carry the rest; the handoff asks first for the studio's own sticker photographs */
+/* Slopless · dismissed 23 · the meter fill is a 28px lime bar inside the counter card, scaled by its own transform, never a fill at viewport scale */
+/* Slopless · the library holds one sticker photograph; the hero carries it and the fills carry the rest; the handoff asks first for the studio's own sticker photographs */
 @import url("./tokens.css");
 @import url("./base.css");
 

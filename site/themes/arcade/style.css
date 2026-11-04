@@ -1,9 +1,9 @@
-/* Hallmark · shape: Marquee Hero (a night bill) · genre: playful · theme: Arcade (by request) · job: attend
+/* Slopless · shape: Marquee Hero (a night bill) · genre: playful · theme: Arcade (by request) · job: attend
  * hero: Stage, the date and the place as the head, a ticket stub of the hour and the door price, the joystick bleeding off the right edge · nav: banner over a bar, tickets pressable in the bar · footer: mast · imagery: photographs, library 2, ember tint under the grille · product: the ticket counter, built · signature: 14 NOV LEEDS split in RGB beside an arcade stick burning ember through the grille · arcade: ember/grille
  * sections: Stage hero, Schedule (the night as two players' timetables, 7PM lit as next), Statement (ember band), Rows (questions that open like a menu, beside a photograph), Offer (the ticket counter with a running total and the request), mast footer
  * job: attend, so the page closes on tickets again; the email only carries the ticket request, it is not a mailing list · fills: the venue, how developers apply
  * axes: dark/pixel/chromatic-ember · posture: full-palette · contrast: pass · fold: pass · layout fix */
-/* Hallmark · dismissed 23 · the banner and the statement are the page's two ember fields under the full-palette posture this stamp declares */
+/* Slopless · dismissed 23 · the banner and the statement are the page's two ember fields under the full-palette posture this stamp declares */
 @import url("./tokens.css");
 @import url("./base.css");
 

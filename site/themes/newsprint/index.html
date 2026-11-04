@@ -3,13 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Lantern: Hebden Bridge news, in one weekly email</title>
+  <title>The Lantern: Hebden Bridge news, in one weekly email | Slopless demo</title>
   <meta name="description" content="The Lantern is a weekly local news newsletter for Hebden Bridge, free to its 4,800 subscribers and paid for by readers who choose to support it at 5 pounds a month.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@700&family=Spectral:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script>document.documentElement.classList.add('js');</script>
+
+<link rel="stylesheet" href="../../demo.css">
+<meta name="robots" content="noindex,follow">
 </head>
 <body id="top">
   <a class="skip" href="#main">Skip to content</a>
@@ -209,7 +212,7 @@
   </footer>
 
   <script>
-window.hallmarkSlots = (m) => { for (const [k, v] of Object.entries(m)) { const s = document.querySelector(`[data-slot="${k}"]`); if (!s) continue; const im = new Image(); im.src = typeof v === 'string' ? v : v.src; im.alt = (typeof v === 'object' && v.alt) || s.dataset.alt || ''; s.querySelectorAll(':scope > img').forEach((o) => o.remove()); s.prepend(im); } };
+window.sloplessSlots = (m) => { for (const [k, v] of Object.entries(m)) { const s = document.querySelector(`[data-slot="${k}"]`); if (!s) continue; const im = new Image(); im.src = typeof v === 'string' ? v : v.src; im.alt = (typeof v === 'object' && v.alt) || s.dataset.alt || ''; s.querySelectorAll(':scope > img').forEach((o) => o.remove()); s.prepend(im); } };
 document.querySelectorAll('[data-slot] > img').forEach((i) => { if (i.complete && !i.naturalWidth) i.remove(); else i.addEventListener('error', () => i.remove(), { once: true }); });
 
 /* the edition's parts: tabs move with the arrow keys; without script every part shows in order */
@@ -254,5 +257,6 @@ document.querySelectorAll('form[data-endpoint]').forEach((form) => {
   });
 });
   </script>
+<aside class="slopless-demo-bar" data-slopless-demo aria-label="Demo navigation"><a href="../../" class="slopless-demo-brand">S/ <strong>Slopless</strong></a><span>Newsprint · demonstration only</span><a href="../../#materials">Back to materials ↗</a></aside>
 </body>
 </html>

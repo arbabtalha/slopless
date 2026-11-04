@@ -3,13 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Swath: every site scan, measured from the office</title>
+<title>Swath: every site scan, measured from the office | Slopless demo</title>
 <meta name="description" content="Swath turns drone and tripod lidar scans of a construction site into a site you can measure, cut and compare without going back out.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV,SHRP@200..500,0,0..100&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <script src="scene.js" defer></script>
+
+<link rel="stylesheet" href="../../demo.css">
+<meta name="robots" content="noindex,follow">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -235,5 +238,6 @@ form.addEventListener('submit', (e) => {
   fetch(form.dataset.endpoint, { method: 'POST', body: new FormData(form) }).then((r) => { note.textContent = r.ok ? 'Request received. We reply within one working day.' : 'That did not go through. Try again in a minute.'; }).catch(() => { note.textContent = 'That did not go through. Try again in a minute.'; });
 });
 </script>
+<aside class="slopless-demo-bar" data-slopless-demo aria-label="Demo navigation"><a href="../../" class="slopless-demo-brand">S/ <strong>Slopless</strong></a><span>Vantage · demonstration only</span><a href="../../#materials">Back to materials ↗</a></aside>
 </body>
 </html>

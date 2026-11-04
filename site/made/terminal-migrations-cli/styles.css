@@ -1,9 +1,9 @@
-/* Hallmark · shape: Map / Diagram (one migration, start to undo) · genre: atmospheric · theme: Terminal (by request) · draw: 823a03
+/* Slopless · shape: Map / Diagram (one migration, start to undo) · genre: atmospheric · theme: Terminal (by request) · draw: 823a03
  * hero: Corridor · nav: floating bar · footer: index columns · imagery: the product built (sessions, the map), one library photograph as a band, duotone · signature: the migration map, every arrow a check shift runs, with the way back drawn as a full path
  * axes: dark/mono/chromatic-green · posture: committed · contrast: pass · fold: pass · v2.7.0 */
-/* Hallmark · pre-emit critique: P4 H4 E4 S4 R4 V4 · weakest: S, migration tools all promise safety; the map, the engine table and the plan name what shift does on each database */
-/* Hallmark · hero-review: fix · 5 findings · 4 resolved 1 partial (Corridor keeps the session under the head, about a third of the screen) */
-/* Hallmark · finish-review: subagent · 8 findings · 7 resolved 1 partial (map scrolls sideways on phones rather than redrawn) · gap: on a phone the way back is a scrolled diagram */
+/* Slopless · pre-emit critique: P4 H4 E4 S4 R4 V4 · weakest: S, migration tools all promise safety; the map, the engine table and the plan name what shift does on each database */
+/* Slopless · hero-review: fix · 5 findings · 4 resolved 1 partial (Corridor keeps the session under the head, about a third of the screen) */
+/* Slopless · finish-review: subagent · 8 findings · 7 resolved 1 partial (map scrolls sideways on phones rather than redrawn) · gap: on a phone the way back is a scrolled diagram */
 @import url("./tokens.css");
 @import url("./base.css");
 

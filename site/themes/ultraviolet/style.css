@@ -1,10 +1,10 @@
-/* Hallmark · shape: Workbench · genre: modern-minimal · theme: Ultraviolet (by request) · ultraviolet: night, one lavender ink band and one record band · data: sample
+/* Slopless · shape: Workbench · genre: modern-minimal · theme: Ultraviolet (by request) · ultraviolet: night, one lavender ink band and one record band · data: sample
  * hero: Stage, the split player on seven columns beside the head · sections: rows (four stems over a bar ruler), figures on the lavender band, showcase (the booth), steps (three built states), table of uses, record band with a working drop · nav: floating pill · footer: statement · imagery: the product built in five places, one library photograph, tint accent
  * axes: light/geometric-sans/cool · posture: committed · contrast: pass · fold: pass · v2.8.0 */
-/* Hallmark · dismissed 3 · the three columns are drop, split and play of one split, each a built product state with no icon in it */
-/* Hallmark · dismissed 23 · the rule is the scaffold's tint treatment in base.css: the accent mixed 55% with black, laid on the photograph with lighten so its shadows print violet; it is the picture, never an accent fill */
-/* Hallmark · answered F4 · the white pill on the record band is the theme's control on a violet field and the only filled control on that surface */
-/* Hallmark · answered F7 · Ultraviolet is round: every control and toggle is a pill and each link's focus ring follows that shape, as the theme sets */
+/* Slopless · dismissed 3 · the three columns are drop, split and play of one split, each a built product state with no icon in it */
+/* Slopless · dismissed 23 · the rule is the scaffold's tint treatment in base.css: the accent mixed 55% with black, laid on the photograph with lighten so its shadows print violet; it is the picture, never an accent fill */
+/* Slopless · answered F4 · the white pill on the record band is the theme's control on a violet field and the only filled control on that surface */
+/* Slopless · answered F7 · Ultraviolet is round: every control and toggle is a pill and each link's focus ring follows that shape, as the theme sets */
 @import url("./tokens.css");
 @import url("./base.css");
 

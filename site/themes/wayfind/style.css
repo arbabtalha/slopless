@@ -1,8 +1,8 @@
-/* Hallmark · shape: Station Sequence (custom: the page walks a commute in signage: the train and the live screen, the board at an interchange, the way out, the lines' state, the street entrance) · genre: modern-minimal · theme: Wayfind (by request, v2.8 pass) · wayfind: platform
+/* Slopless · shape: Station Sequence (custom: the page walks a commute in signage: the train and the live screen, the board at an interchange, the way out, the lines' state, the street entrance) · genre: modern-minimal · theme: Wayfind (by request, v2.8 pass) · wayfind: platform
  * hero: Stage, the platform photograph bleeding off the right edge with the live station screen standing in front of it · sections: departure board table on the ink band with a station picker, split with a route of plates, status rows, a close on one cobalt field · nav: slab · footer: mast, the wordmark at sign size on the ink · imagery: photographs, library 2, natural sat=-12 con=10 · product sample in hero, board, route and status · signature: minutes in amber on ink, read from three metres
  * axes: light/mono/cool · posture: committed · contrast: pass · fold: pass · v2.8.0 */
-/* Hallmark · dismissed F4 · the close sits on the cobalt signal field, where the theme's own colourway turns the cobalt button into the ink one; one filled primary on each surface */
-/* Hallmark · waive 64 · the display and the body are both Chivo Mono, declared as Wayfind's material · the mono is the departure board's face, so every glyph on the page is set in it */
+/* Slopless · dismissed F4 · the close sits on the cobalt signal field, where the theme's own colourway turns the cobalt button into the ink one; one filled primary on each surface */
+/* Slopless · waive 64 · the display and the body are both Chivo Mono, declared as Wayfind's material · the mono is the departure board's face, so every glyph on the page is set in it */
 @import url("./tokens.css");
 @import url("./base.css");
 

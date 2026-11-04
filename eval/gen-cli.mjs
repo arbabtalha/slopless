@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Tier A eval harness: drive the REAL Claude Code binary against a brief with
-// the Hallmark skill installed, and measure conformance on the real harness
+// the Slopless skill installed, and measure conformance on the real harness
 // (load-order discipline, stamp, files written) - not just bare-API
 // instruction-following like Tier B (gen-direct.py).
 //
@@ -20,7 +20,7 @@
 // cell doubles as the leak detector (must be false).
 //
 // IMPORTANT (measured): skills do NOT auto-trigger in `claude -p` headless mode,
-// so we invoke the skill BY NAME ("/hallmark <brief>"). This is a CONFORMANCE
+// so we invoke the skill BY NAME ("/slopless <brief>"). This is a CONFORMANCE
 // harness (does the skill FOLLOW its discipline), not an auto-trigger test.
 //
 // Auth: the `claude` arm sets NO key and uses your Claude subscription -
@@ -40,19 +40,19 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const REPO = dirname(ROOT);
-const SKILL_SRC = join(REPO, "skills", "hallmark");
+const SKILL_SRC = join(REPO, "skills", "slopless");
 const RUNS = join(ROOT, "runs");
 const SCRATCH = join(ROOT, "_cli-scratch");
 
 // --- arms (Tier A only; Anthropic-shaped endpoints) ------------------------
 const ARMS = {
-  "claude": { model: null, enabled: true, skill: true, note: "Hallmark arm; Claude subscription; set NO key, must be logged in." },
+  "claude": { model: null, enabled: true, skill: true, note: "Slopless arm; Claude subscription; set NO key, must be logged in." },
   "bare":   { model: null, enabled: true, skill: false, note: "No-skill control; same binary and auth." },
-  // Hallmark with a reference archive attached. Since fa12b99 signal 8 inverts the
-  // flow: the archive owns Steps 1-6 and Hallmark enters at Step 7 as a sweep, so
+  // Slopless with a reference archive attached. Since fa12b99 signal 8 inverts the
+  // flow: the archive owns Steps 1-6 and Slopless enters at Step 7 as a sweep, so
   // this arm measures a different code path from "claude", not a better-resourced
   // version of it. Local stdio server, no credentials in the config.
-  "inspo":  { model: null, enabled: true, skill: true, mcp: true, note: "Hallmark + Inspo MCP; exercises the signal-8 sweep path." },
+  "inspo":  { model: null, enabled: true, skill: true, mcp: true, note: "Slopless + Inspo MCP; exercises the signal-8 sweep path." },
   "glm":   { model: "glm-5.2[1m]", base: "https://api.z.ai/api/anthropic", tokenEnv: "ZAI_AUTH_TOKEN", enabled: false },
   "kimi":  { model: "kimi-k3", base: "https://api.moonshot.ai/anthropic", tokenEnv: "MOONSHOT_AUTH_TOKEN", enabled: false },
 };
@@ -147,14 +147,14 @@ function stampPresent(runDir) {
   // measured derived run put the stamp in page.css while the old list checked
   // index.html / styles.css / tokens.css only. The marker is also not always
   // flush against the comment open, since a derived header reads
-  // "/* <Brand> · Hallmark derived system", so match Hallmark anywhere in a
+  // "/* <Brand> · Slopless derived system", so match Slopless anywhere in a
   // leading block comment rather than immediately after the slash-star.
   let names;
   try { names = readdirSync(runDir); } catch { return false; }
   for (const name of names) {
     if (!/\.(css|html)$/i.test(name)) continue;
     const src = readFileSync(join(runDir, name), "utf8");
-    if (/\/\*[^*]{0,120}Hallmark/.test(src)) return true;
+    if (/\/\*[^*]{0,120}Slopless/.test(src)) return true;
   }
   return false;
 }
@@ -175,7 +175,7 @@ async function runCell(brief, armId) {
     mkdirSync(work, { recursive: true });
   } else {
     mkdirSync(join(work, ".claude", "skills"), { recursive: true });
-    cpSync(SKILL_SRC, join(work, ".claude", "skills", "hallmark"), { recursive: true });
+    cpSync(SKILL_SRC, join(work, ".claude", "skills", "slopless"), { recursive: true });
   }
   mkdirSync(runDir, { recursive: true });
 
@@ -193,7 +193,7 @@ async function runCell(brief, armId) {
 
   const prompt = arm.skill === false
     ? `${brief.brief}\nWrite the result as index.html (plus css files if you like) in the current directory. Infer what you need; do not ask questions.`
-    : `/hallmark ${brief.brief}\nGo ahead and infer audience, use, and tone from the brief; do not ask me questions.`;
+    : `/slopless ${brief.brief}\nGo ahead and infer audience, use, and tone from the brief; do not ask me questions.`;
   const allowed = ["Read", "Write", "Edit", "Bash"];
   const cliArgs = ["-p", prompt, "--output-format", "stream-json", "--verbose",
     "--permission-mode", "acceptEdits",

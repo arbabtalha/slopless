@@ -169,7 +169,7 @@ def call_api_together(api_key: str, blocks: list[dict]) -> str:
         FALLBACK_URL, data=body, method="POST",
         headers={"content-type": "application/json",
                  "authorization": f"Bearer {api_key}",
-                 "User-Agent": "hallmark-eval/1.0"},
+                 "User-Agent": "slopless-eval/1.0"},
     )
     with urllib.request.urlopen(req, timeout=180) as resp:
         data = json.loads(resp.read().decode("utf-8"))
@@ -192,7 +192,7 @@ def call_api(api_key: str, blocks: list[dict]) -> dict:
             "content-type": "application/json",
             "x-api-key": api_key,
             "anthropic-version": "2023-06-01",
-            "User-Agent": "hallmark-eval/1.0",
+            "User-Agent": "slopless-eval/1.0",
         },
     )
     with urllib.request.urlopen(req, timeout=180) as resp:

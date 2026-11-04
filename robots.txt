@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /slopless/eval/
+Disallow: /slopless/skills/
+Sitemap: https://arbabtalha.github.io/slopless/site/sitemap.xml

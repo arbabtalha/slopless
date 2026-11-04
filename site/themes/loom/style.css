@@ -1,9 +1,9 @@
-/* Hallmark · shape: Narrative Workflow · genre: editorial · theme: Loom (by request) · draw: 3f8a26 (shape swapped from Photographic to keep pictures under a third; first section swapped from Showcase to the specification rows, so the poster is not followed by a second picture; footer swapped from index columns to a colophon block: no sitemap)
+/* Slopless · shape: Narrative Workflow · genre: editorial · theme: Loom (by request) · draw: 3f8a26 (shape swapped from Photographic to keep pictures under a third; first section swapped from Showcase to the specification rows, so the poster is not followed by a second picture; footer swapped from index columns to a colophon block: no sitemap)
  * hero: Poster · nav: slab, the wordmark and an ink rule · footer: colophon block · imagery: photographs, library 3, natural sat=-12 con=-4 · signature: the six to eight weeks drawn as a ruled week scale, the arrival window in indigo · loom: ecru
  * sections (the length from order to door): poster, specification rows with the price in Caslon, showcase 21:9, week scale on sand, split with photograph, order with the sum worked in rows on indigo, colophon
  * axes: light/roman-serif/cool · posture: committed · contrast: pass · fold: pass · v2.8 launch pass */
-/* Hallmark · pre-emit critique: P4 H4 E4 S4 R5 V4 · weakest: E, the library holds one old loom and no Borders studio; the studio's own photographs are the ask */
-/* Hallmark · dismissed 23 · the indigo band is the theme's one band on its declared committed posture, a surface not the signal */
+/* Slopless · pre-emit critique: P4 H4 E4 S4 R5 V4 · weakest: E, the library holds one old loom and no Borders studio; the studio's own photographs are the ask */
+/* Slopless · dismissed 23 · the indigo band is the theme's one band on its declared committed posture, a surface not the signal */
 @import url("./tokens.css");
 @import url("./base.css");
 

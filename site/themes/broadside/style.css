@@ -1,9 +1,9 @@
-/* Hallmark · shape: Marquee Hero · genre: editorial · theme: Broadside (by request) · v2.8 launch pass
+/* Slopless · shape: Marquee Hero · genre: editorial · theme: Broadside (by request) · v2.8 launch pass
  * hero: Settled · sections: a two-day timetable set as a bill, the count fitted across the measure, split with one plate, form on the vermilion band · nav: masthead, the wordmark centred over a five-point rule · footer: statement, the bill's last line fitted across the measure · broadside: bill
  * imagery: photographs, library 2, duotone ink paper con=20 · the hay bales and the empty field cut; the days and the count are set in Six Caps instead
  * axes: light/display-condensed/warm · posture: committed · contrast: pass · fold: pass · v2.8.0 */
-/* Hallmark · pre-emit critique: P4 H5 E4 S5 R4 V4 · weakest: E, the library holds no machinery lined up for a sale; one plate stands in and the slot asks for the sale's own */
-/* Hallmark · waive 55b · every fitted line is its own nowrap span sized to its measure in cqi, so it cannot wrap at 320px · a sale bill sets each line to fill the measure */
+/* Slopless · pre-emit critique: P4 H5 E4 S5 R4 V4 · weakest: E, the library holds no machinery lined up for a sale; one plate stands in and the slot asks for the sale's own */
+/* Slopless · waive 55b · every fitted line is its own nowrap span sized to its measure in cqi, so it cannot wrap at 320px · a sale bill sets each line to fill the measure */
 @import url("./tokens.css");
 @import url("./base.css");
 

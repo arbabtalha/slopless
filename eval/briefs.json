@@ -5,7 +5,7 @@
     "brief": "Build a landing page for an AI voice-cloning studio.",
     "expect": {
       "scope": "page",
-      "notes": "Parity brief reused from hallmark-lab gen-01. Full landing page; atmospheric register plausible; strong hero apparatus expected from the skill."
+      "notes": "Parity brief reused from slopless-lab gen-01. Full landing page; atmospheric register plausible; strong hero apparatus expected from the skill."
     }
   },
   {
@@ -14,7 +14,7 @@
     "brief": "Build a page for a late-night, browser-based drum machine.",
     "expect": {
       "scope": "page",
-      "notes": "Parity brief reused from hallmark-lab gen-02. Full page; the instrument itself is the natural hero centerpiece."
+      "notes": "Parity brief reused from slopless-lab gen-02. Full page; the instrument itself is the natural hero centerpiece."
     }
   },
   {
@@ -23,7 +23,7 @@
     "brief": "Build a one-page manifesto for a slow-web movement.",
     "expect": {
       "scope": "page",
-      "notes": "Parity brief reused from hallmark-lab gen-03. Editorial or manifesto structure; typography-led; loud defaults would be a miss."
+      "notes": "Parity brief reused from slopless-lab gen-03. Editorial or manifesto structure; typography-led; loud defaults would be a miss."
     }
   },
   {
@@ -47,7 +47,7 @@
   {
     "id": "b6",
     "name": "vision-probe",
-    "brief": "hallmark study <attached screenshot>",
+    "brief": "slopless study <attached screenshot>",
     "expect": {
       "scope": "study-decline",
       "notes": "No image is actually attached, and API arms have no vision input wired. Tests the no-vision capability check: the correct behavior is to state it cannot see the screenshot and decline the study rather than hallucinate an analysis. Emitting a page or a fabricated study is a fail."
@@ -86,7 +86,7 @@
     "brief": "Build a landing page for The Low Room, a 90-seat basement jazz club in Glasgow with live sets six nights a week and a late bar.",
     "expect": {
       "scope": "page",
-      "notes": "With and without Hallmark, for the landing page."
+      "notes": "With and without Slopless, for the landing page."
     }
   },
   {
@@ -95,7 +95,7 @@
     "brief": "Build a landing page for Wheel House, a neighbourhood pottery school in Leeds that runs six-week beginner courses on weeknights.",
     "expect": {
       "scope": "page",
-      "notes": "With and without Hallmark, for the landing page."
+      "notes": "With and without Slopless, for the landing page."
     }
   },
   {
@@ -104,7 +104,7 @@
     "brief": "Build a landing page for Tronc, a payroll tool for independent restaurants that handles shifts, tips and holiday pay in one run.",
     "expect": {
       "scope": "page",
-      "notes": "With and without Hallmark, for the landing page."
+      "notes": "With and without Slopless, for the landing page."
     }
   },
   {
@@ -113,7 +113,7 @@
     "brief": "Build a portfolio page for Ines Calvo, a documentary photographer working on long projects about rivers and the people who live on them.",
     "expect": {
       "scope": "page",
-      "notes": "With and without Hallmark, for the landing page."
+      "notes": "With and without Slopless, for the landing page."
     }
   },
   {
@@ -122,7 +122,7 @@
     "brief": "Build a landing page for Nightjar, a rooftop cinema in Manchester showing classic films on summer evenings, with deckchairs, blankets and a bar.",
     "expect": {
       "scope": "page",
-      "notes": "With and without Hallmark on Opus 5.5 at low effort, for the landing page."
+      "notes": "With and without Slopless on Opus 5.5 at low effort, for the landing page."
     }
   },
   {
@@ -131,7 +131,7 @@
     "brief": "Build a landing page for Murmur, an app that records your meetings and turns them into tidy notes and action items a minute after you hang up.",
     "expect": {
       "scope": "page",
-      "notes": "With and without Hallmark on Opus 5.5 at low effort, for the landing page."
+      "notes": "With and without Slopless on Opus 5.5 at low effort, for the landing page."
     }
   },
   {
@@ -140,7 +140,7 @@
     "brief": "Build a landing page for Crux, a bouldering gym in Leeds with 300 problems, reset every Monday, a cafe and kids' sessions at weekends.",
     "expect": {
       "scope": "page",
-      "notes": "With and without Hallmark on Opus 5.5 at low effort, for the landing page."
+      "notes": "With and without Slopless on Opus 5.5 at low effort, for the landing page."
     }
   },
   {
@@ -149,7 +149,7 @@
     "brief": "Build a landing page for Salt & Ember, a wood-fired bakery in Lisbon open from 7am, known for its sourdough and custard tarts.",
     "expect": {
       "scope": "page",
-      "notes": "With and without Hallmark on Opus 5.5 at low effort, for the landing page."
+      "notes": "With and without Slopless on Opus 5.5 at low effort, for the landing page."
     }
   },
   {
@@ -158,7 +158,7 @@
     "brief": "Build a landing page for Tidepool, a sea-swimming club in Brighton that meets at 7am every day of the year, with a sauna on the beach and a beginners' week each month.",
     "expect": {
       "scope": "page",
-      "notes": "With and without Hallmark on Opus 5.5 at low effort, for the landing page."
+      "notes": "With and without Slopless on Opus 5.5 at low effort, for the landing page."
     }
   },
   {
@@ -167,7 +167,7 @@
     "brief": "Build a landing page for Ledgerline, an API that turns bank statements from any UK bank into clean, categorised transactions for accounting software.",
     "expect": {
       "scope": "page",
-      "notes": "With and without Hallmark on Opus 5.5 at low effort, for the landing page."
+      "notes": "With and without Slopless on Opus 5.5 at low effort, for the landing page."
     }
   },
   {
@@ -176,7 +176,7 @@
     "brief": "Build a landing page for Fold & Thread, a bookbinding studio in Edinburgh that runs weekend courses and repairs old books.",
     "expect": {
       "scope": "page",
-      "notes": "With and without Hallmark on Opus 5.5 at low effort, for the landing page."
+      "notes": "With and without Slopless on Opus 5.5 at low effort, for the landing page."
     }
   },
   {

@@ -1,9 +1,9 @@
-/* Hallmark · shape: Marquee Hero (the pool, then the term) · genre: atmospheric · theme: Bloom (by request) · draw: ff419e
+/* Slopless · shape: Marquee Hero (the pool, then the term) · genre: atmospheric · theme: Bloom (by request) · draw: ff419e
  * hero: Ledge · nav: floating pill · footer: mast · imagery: photographs, library 2, warm · signature: the teaching pool as a tall field with the head resting on its ledge
  * axes: light/grotesk-sans/warm · posture: committed · contrast: pass · fold: pass · v2.7.0 */
-/* Hallmark · pre-emit critique: P4 H4 E4 S4 R4 V4 · weakest: S, swim schools all promise confidence; the head names the small class as the teacher’s reach, and the stages map onto the age classes */
-/* Hallmark · hero-review: fix · 5 findings · 3 resolved 2 unresolved (no warm teaching pool or children’s lesson in the library; owner photos replace both) */
-/* Hallmark · finish-review: subagent · 8 findings · 6 resolved 1 partial (pool photo cropped to water, still a stand-in) 1 dismissed (warm treatment is applied in base.css) · gap: cool stand-in photographs on a warm theme */
+/* Slopless · pre-emit critique: P4 H4 E4 S4 R4 V4 · weakest: S, swim schools all promise confidence; the head names the small class as the teacher’s reach, and the stages map onto the age classes */
+/* Slopless · hero-review: fix · 5 findings · 3 resolved 2 unresolved (no warm teaching pool or children’s lesson in the library; owner photos replace both) */
+/* Slopless · finish-review: subagent · 8 findings · 6 resolved 1 partial (pool photo cropped to water, still a stand-in) 1 dismissed (warm treatment is applied in base.css) · gap: cool stand-in photographs on a warm theme */
 @import url("./tokens.css");
 @import url("./base.css");
 

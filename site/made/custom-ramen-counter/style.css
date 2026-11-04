@@ -1,10 +1,10 @@
-/* Hallmark · shape: the walk in (street, lamp, counter, bowl, street) · genre: editorial · theme: custom · idea: "a late-night ramen counter is the one lit place on a dark street, so the page walks you in from the night, sits you at the counter, cuts the bowl open, and sends you back out" · vibe: "warm lamp light on a cold street"
+/* Slopless · shape: the walk in (street, lamp, counter, bowl, street) · genre: editorial · theme: custom · idea: "a late-night ramen counter is the one lit place on a dark street, so the page walks you in from the night, sits you at the counter, cuts the bowl open, and sends you back out" · vibe: "warm lamp light on a cold street"
  * paper: oklch(16% 0.015 262) night · accent: oklch(80% 0.17 132) scallion, kept to focus rings on the night and link hovers · display: Hepta Slab 700 · body: Hanken Grotesk 400/700 · hero: the dark street above with the headline, the lamp-lit counter below, the kitchen photo straddling the seam between them · nav: lowercase wordmark left, three section links right, no button, no rule · footer: one low row over a hairline, wordmark, section links, photo credits · imagery: photographs, library 3, lamp duotone (greyscale multiplied by the lamp, shadows lifted to the night) · signature: the lit counter on the dark street, the hero's night giving way to lamp yellow with the kitchen across the seam; then the bowl in cross-section, five bands as thick as their layers
  * axes: night/slab/lamp · posture: full palette (night field, lamp field, broth ramp; colours taken from the hour, the lamp and the broth; scallion only as a signal) · contrast: pass · fold: pass · v2.8.0 */
-/* Hallmark · pre-emit critique: P4 H4 E4 S4 R4 V4 · weakest: S, the brief gives no name, menu, hours or place; carried it with the bowl's own layers and the counter's manners instead of invented dishes, and left address and hours as blanks to fill */
-/* Hallmark · hero-review: fix · 5 findings · 4 resolved 1 partial (the bowl signature stays below the fold; the lit seam now carries screen one) */
-/* Hallmark · finish-review: subagent · 8 findings · 8 resolved · gap: none */
-/* Hallmark · dismissed F6 · .counter names the ramen counter, a place; its heads carry no figures */
+/* Slopless · pre-emit critique: P4 H4 E4 S4 R4 V4 · weakest: S, the brief gives no name, menu, hours or place; carried it with the bowl's own layers and the counter's manners instead of invented dishes, and left address and hours as blanks to fill */
+/* Slopless · hero-review: fix · 5 findings · 4 resolved 1 partial (the bowl signature stays below the fold; the lit seam now carries screen one) */
+/* Slopless · finish-review: subagent · 8 findings · 8 resolved · gap: none */
+/* Slopless · dismissed F6 · .counter names the ramen counter, a place; its heads carry no figures */
 @import url("./tokens.css");
 @import url("./base.css");
 

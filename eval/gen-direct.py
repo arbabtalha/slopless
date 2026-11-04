@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-gen-direct.py - Tier B of the Hallmark eval harness: bare API generation.
+gen-direct.py - Tier B of the Slopless eval harness: bare API generation.
 
 One cell = one (brief, arm, pack). The system prompt is a compiled skill pack
 from make-pack.mjs; the user message is the brief; the call is a single bare
@@ -55,7 +55,7 @@ MAX_TOKENS = 64000
 READ_TIMEOUT = 600  # seconds of stream silence before giving up
 RETRY_ATTEMPTS = 3
 # Together sits behind Cloudflare, which 403s the default urllib UA.
-USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) hallmark-eval/1.0"
+USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) slopless-eval/1.0"
 NUDGE = "Ship the complete index.html now."
 REPAIR_INSTRUCTION = (
     "Fix these mechanical failures, re-emit the complete file. "
@@ -475,7 +475,7 @@ def repair_cell(brief_entry, arm, pack, system, key, rounds):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Hallmark eval: bare API generation (Tier B)")
+    ap = argparse.ArgumentParser(description="Slopless eval: bare API generation (Tier B)")
     ap.add_argument("--brief", required=True, help="b1..b6 or 'all'")
     ap.add_argument("--arm", required=True, help="arm id from models.json or 'all' (enabled arms only)")
     ap.add_argument("--pack", required=True, choices=["floor", "full"])

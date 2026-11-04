@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-// score.mjs: run the Hallmark sloplint gate checker over every eval artifact.
+// score.mjs: run the Slopless sloplint gate checker over every eval artifact.
 //
 // For each eval/runs/<briefId>/<armId>-<pack>/index.html, runs:
-//   node skills/hallmark/scripts/sloplint.mjs <index.html> --json [--scope component]
+//   node skills/slopless/scripts/sloplint.mjs <index.html> --json [--scope component]
 // and writes score.json next to the artifact:
 //   { generatedAt, scope, findings, summary: {fails, warns}, floorClean }
 //
@@ -25,12 +25,12 @@ import path from "node:path";
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const RUNS = path.join(ROOT, "runs");
-const SLOPLINT = path.resolve(ROOT, "..", "skills", "hallmark", "scripts", "sloplint.mjs");
+const SLOPLINT = path.resolve(ROOT, "..", "skills", "slopless", "scripts", "sloplint.mjs");
 const BRIEFS_PATH = path.join(ROOT, "briefs.json");
 
 // The Floor is whatever gates.md marks Floor today, so the set never drifts from the skill.
 const FLOOR_GATES = new Set(
-  [...readFileSync(path.resolve(ROOT, "..", "skills", "hallmark", "references", "gates.md"), "utf8")
+  [...readFileSync(path.resolve(ROOT, "..", "skills", "slopless", "references", "gates.md"), "utf8")
     .matchAll(/^\| ([0-9A-Za-z]+) \| Floor \|/gm)].map((m) => m[1]),
 );
 

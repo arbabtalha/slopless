@@ -1,7 +1,7 @@
-/* Hallmark · shape: Midsummer (custom: the bottle standing in a setting sun over a dark field, the year from blossom to bottle, the run on a hanging tag, three evening photographs in a row, the order with a quantity) · genre: editorial · theme: Solstice (by request)
+/* Slopless · shape: Midsummer (custom: the bottle standing in a setting sun over a dark field, the year from blossom to bottle, the run on a hanging tag, three evening photographs in a row, the order with a quantity) · genre: editorial · theme: Solstice (by request)
  * hero: Stage, the head left, the bottle centred in the sun, the offer right · nav: split, links left, the name centred, the place and the order right · footer: the name over the credits on dusk · imagery: four library photographs, one generated object with its label set in type · signature: the low sun behind the bottle, its glow travelling the page
  * axes: light/high-contrast-serif/warm · posture: committed · contrast: pass · fold: pass · v2.7.0 */
-/* Hallmark · waive 77 · the run sits on one hanging tag, 760px, five ruled rows under a two-line head · a bottle tag is sized like a tag; stretched to ten columns it stops reading as the tag tied to the bottle */
+/* Slopless · waive 77 · the run sits on one hanging tag, 760px, five ruled rows under a two-line head · a bottle tag is sized like a tag; stretched to ten columns it stops reading as the tag tied to the bottle */
 @import url("tokens.css");
 @import url("base.css");
 

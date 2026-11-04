@@ -1,0 +1,13 @@
+interface:
+  display_name: Slopless
+  short_description: Design skill. Pages that look made, not generated.
+  default_prompts:
+    - "$slopless a landing page for <product>"
+    - "$slopless a pricing page for <product>, custom"
+    - "$slopless a signup form component"
+    - "$slopless redesign <path to a page or an app>"
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies: []

@@ -1,9 +1,9 @@
-/* Hallmark · job: join (a membership library: join, then a first Saturday) · shape: Catalogue · genre: editorial · theme: Ink (v2.8 launch pass)
+/* Slopless · job: join (a membership library: join, then a first Saturday) · shape: Catalogue · genre: editorial · theme: Ink (v2.8 launch pass)
  * hero: Index, the shelf itself as the first screen's visual (a filterable ruled list with in and out pills) beside the head and the join action · sections: Pinned (your first Saturday, four steps scrolling past one held picture that changes with each), Statement (the street's line), Schedule (the next four Saturdays from the clock, the next one inked), Form beside a built membership card that takes the name as it is typed · nav: edge-aligned, the wordmark, a live open or closed sign that reads the London clock, first visit and the join button · footer: colophon block, the library in one paragraph, the links and the credits · imagery: photographs, library 4, muted · signature: the shelf as a ruled list, every thing with its in or out pill, narrowing as you type · ink: paper
  * job close: a membership library ends on joining, the one place a sign-up field is the job itself; the card makes it a membership, not a newsletter
  * axes: light/grotesk-sans/chromatic-teal · posture: restrained · contrast: pass · fold: pass · v2.8.0 */
-/* Hallmark · waive 22 · ink and greys at zero chroma · a notice board is printed in plain black, so the greys carry no hue at all */
-/* Hallmark · gap: the things and their states are a sample with sample states, marked on the page; the library's own list, photographs and live states replace them */
+/* Slopless · waive 22 · ink and greys at zero chroma · a notice board is printed in plain black, so the greys carry no hue at all */
+/* Slopless · gap: the things and their states are a sample with sample states, marked on the page; the library's own list, photographs and live states replace them */
 @import url("./tokens.css");
 @import url("./base.css");
 

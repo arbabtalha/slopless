@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""run-matrix.py: orchestrator for the Hallmark eval pipeline.
+"""run-matrix.py: orchestrator for the Slopless eval pipeline.
 
 Pipeline (each stage is a subprocess, filters passed through):
 
@@ -56,7 +56,7 @@ RUNS = ROOT / "runs"
 
 
 def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Hallmark eval matrix orchestrator")
+    p = argparse.ArgumentParser(description="Slopless eval matrix orchestrator")
     p.add_argument("--brief", default="all", help="brief id b1..b6, or 'all' (default)")
     p.add_argument("--arm", default="all", help="arm id from models.json, or 'all' enabled (default)")
     p.add_argument("--pack", default="floor", choices=["floor", "full"],

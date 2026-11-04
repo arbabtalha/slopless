@@ -1,10 +1,10 @@
-/* Hallmark · shape: Bento Grid · genre: modern-minimal · theme: Coral (by request) · draw: 1ccc8b
+/* Slopless · shape: Bento Grid · genre: modern-minimal · theme: Coral (by request) · draw: 1ccc8b
  * hero: Stage (swapped from Corridor: the product is the material) · nav: edge-aligned · footer: colophon block · imagery: product sample in hero, booking and reminder; library photographs 3, muted · signature: the diary with a treatment note open that drafts its own invoice
  * axes: light/grotesk-sans/warm · posture: restrained · contrast: pass · fold: pass · v2.7.0 */
-/* Hallmark · pre-emit critique: P4 H4 E4 S4 R4 V4 · weakest: S, a booking app reads like any scheduler; the note shows knee angles and pain scores so it can only be a physio's diary */
-/* Hallmark · answered F4 · the ink pills inside the built product are the app's own controls drawn as spans, not page buttons; the page keeps one button recipe */
-/* Hallmark · dismissed 58 · over 200 of the counted words are sample text inside the built product (diary, note, booking page, text thread, invoice table); the prose alone is about 330 */
-/* Hallmark · hero-review: fix · 5 findings · 3 resolved 1 partial (head runs four lines at 1280) 1 no action
+/* Slopless · pre-emit critique: P4 H4 E4 S4 R4 V4 · weakest: S, a booking app reads like any scheduler; the note shows knee angles and pain scores so it can only be a physio's diary */
+/* Slopless · answered F4 · the ink pills inside the built product are the app's own controls drawn as spans, not page buttons; the page keeps one button recipe */
+/* Slopless · dismissed 58 · over 200 of the counted words are sample text inside the built product (diary, note, booking page, text thread, invoice table); the prose alone is about 330 */
+/* Slopless · hero-review: fix · 5 findings · 3 resolved 1 partial (head runs four lines at 1280) 1 no action
  * finish-review: subagent · 8 findings · 6 resolved 1 dismissed (duplicate id: the page has none) 1 unresolved (a section head can land at a screen's foot at one scroll position) · gap: none */
 @import url("./tokens.css");
 @import url("./base.css");

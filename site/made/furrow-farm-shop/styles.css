@@ -1,9 +1,9 @@
-/* Hallmark · shape: Narrative Workflow (field, counter, cafe) · genre: modern-minimal · theme: Furrow (by request) · draw: c3fbe1
+/* Slopless · shape: Narrative Workflow (field, counter, cafe) · genre: modern-minimal · theme: Furrow (by request) · draw: c3fbe1
  * hero: Poster · nav: banner over a bar · footer: index columns · imagery: photographs, library 8, natural · signature: the dale fields full-bleed under a white paper sheet that carries the head
  * axes: light/grotesk-sans/warm · posture: committed · contrast: pass · fold: pass · v2.7.0 */
-/* Hallmark · pre-emit critique: P4 H4 E4 S4 R4 V4 · weakest: S, a farm shop line fits many farms; the head names one Shropshire farm and the three numbered stages are this shop’s three counters */
-/* Hallmark · hero-review: fix · 5 findings · 4 resolved 1 unresolved (library has no Shropshire field; owner photo replaces it) */
-/* Hallmark · finish-review: subagent · 7 findings · 6 resolved 1 partial (cow stand-in kept, library holds no overcast cattle) · gap: stand-in photos lean styled, not working farm */
+/* Slopless · pre-emit critique: P4 H4 E4 S4 R4 V4 · weakest: S, a farm shop line fits many farms; the head names one Shropshire farm and the three numbered stages are this shop’s three counters */
+/* Slopless · hero-review: fix · 5 findings · 4 resolved 1 unresolved (library has no Shropshire field; owner photo replaces it) */
+/* Slopless · finish-review: subagent · 7 findings · 6 resolved 1 partial (cow stand-in kept, library holds no overcast cattle) · gap: stand-in photos lean styled, not working farm */
 @import url("./tokens.css");
 @import url("./base.css");
 

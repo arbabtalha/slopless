@@ -1,9 +1,9 @@
-/* Hallmark · shape: Trade Ledger (custom: the roast as a Poster, the week's six as a day book you order from, the drum beside its facts, two ways to buy on the fibre band, sack to cup as a pair, the order as the Offer on the pigment) · genre: editorial · theme: Vellum (by request) · job: buy
+/* Slopless · shape: Trade Ledger (custom: the roast as a Poster, the week's six as a day book you order from, the drum beside its facts, two ways to buy on the fibre band, sack to cup as a pair, the order as the Offer on the pigment) · genre: editorial · theme: Vellum (by request) · job: buy
  * hero: Poster · nav: masthead, the blackletter wordmark centred over a double rule, one link at each end · sticky: a buy bar after the hero, gone over the order · footer: letter close · imagery: photographs, library 4, warm con=6 · vellum: parchment
  * sections: hero Poster, Table (the day book, an Order link on every row that fills the order), Split (the drum beside three ruled facts), Rows on the fibre band (a statement, then the two ways to buy), Showcase pair at 7 and 5 (sack and cup), Offer on the pigment (coffee, way, bags and rhythm as joined cells, the running answer, the price slot, the action), footer letter close
  * samples: the six coffees in the day book and the order are stand-ins for the week's list; the subscription's three rhythms show the shape of the choice; the price waits on the owner
  * axes: light/blackletter/cool · posture: committed · contrast: pass · fold: pass · v2.8.0 */
-/* Hallmark · answered F4 · the order field inverts the primary to parchment on pigment, as the theme's own hint sets it for its one field */
+/* Slopless · answered F4 · the order field inverts the primary to parchment on pigment, as the theme's own hint sets it for its one field */
 @import url("./tokens.css");
 @import url("./base.css");
 
