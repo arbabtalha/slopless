@@ -1,0 +1,30 @@
+{
+  "name": "slopless",
+  "owner": {
+    "name": "arbabtalha",
+    "url": "https://github.com/arbabtalha"
+  },
+  "metadata": {
+    "description": "Slopless. Less default. More deliberate."
+  },
+  "plugins": [
+    {
+      "name": "slopless",
+      "source": "./skills",
+      "strict": false,
+      "skills": [
+        "./slopless"
+      ],
+      "description": "A design toolkit for coding agents. Fifty materials, deliberate interfaces, and checks that keep the details honest.",
+      "version": "2.0.0",
+      "author": {
+        "name": "arbabtalha",
+        "url": "https://github.com/arbabtalha"
+      },
+      "homepage": "https://arbabtalha.github.io/slopless/site/",
+      "repository": "https://github.com/arbabtalha/slopless",
+      "license": "MIT",
+      "category": "design"
+    }
+  ]
+}

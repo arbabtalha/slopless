@@ -1,0 +1,51 @@
+{
+  "name": "slopless",
+  "version": "2.0.0",
+  "description": "A design toolkit for coding agents. Fifty materials, deliberate interfaces, and checks that keep the details honest.",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "codex",
+    "opencode",
+    "agent-skills",
+    "skill",
+    "design",
+    "redesign",
+    "ui",
+    "anti-ai-slop",
+    "typography",
+    "oklch"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "skills"
+  ],
+  "skill": {
+    "entry": "skills/slopless/SKILL.md",
+    "references": "skills/slopless/references",
+    "harnesses": [
+      "claude-code",
+      "codex",
+      "cursor",
+      "opencode"
+    ]
+  },
+  "scripts": {
+    "serve": "python3 -m http.server --bind 0.0.0.0 --directory site 4173",
+    "test": "node --test tests/*.test.mjs skills/slopless/scripts/*.test.mjs skills/slopless/scripts/fixtures/imagegen/*.test.mjs",
+    "check": "node scripts/verify.mjs",
+    "check:site": "node scripts/check-site.mjs",
+    "test:browser": "node scripts/test-browser.mjs",
+    "assets": "python3 scripts/brand-assets.py"
+  },
+  "homepage": "https://arbabtalha.github.io/slopless/site/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arbabtalha/slopless.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arbabtalha/slopless/issues"
+  },
+  "author": "arbabtalha"
+}

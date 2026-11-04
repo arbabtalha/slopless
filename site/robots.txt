@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://arbabtalha.github.io/slopless/site/sitemap.xml

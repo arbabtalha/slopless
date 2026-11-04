@@ -1,0 +1,20 @@
+{
+  "name": "slopless",
+  "version": "2.0.0",
+  "description": "A design toolkit for coding agents. Fifty materials, deliberate interfaces, and checks that keep the details honest.",
+  "author": {
+    "name": "arbabtalha",
+    "url": "https://github.com/arbabtalha"
+  },
+  "homepage": "https://arbabtalha.github.io/slopless/site/",
+  "repository": "https://github.com/arbabtalha/slopless",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "ui",
+    "landing-page",
+    "redesign",
+    "anti-ai-slop",
+    "themes"
+  ]
+}
