@@ -8,7 +8,7 @@
 - Coherent skill directory, command, metadata, agent instructions, install targets, hooks, runtime paths, stamps, fixture data and workflow references.
 - Repository and promotional links now use arbabtalha/slopless. No copied star counts, invented social profiles, sponsorship claims or evaluation metrics.
 - Free hosting uses the repository's existing GitHub Pages project address, not a purchased or guessed custom domain. The repository root forwards to `site/`; the site is also statically deployable on Vercel.
-- The installation command is branch-qualified while main does not contain the new skill. The public instructions explain this explicitly. Work stays on the Arena session branch.
+- Installation uses the default repository branch after the verified PR is merged. Implementation commits and pushes stay on the Arena session branch; no direct main-branch pushes are used.
 
 ## Intentional legacy references
 
@@ -44,3 +44,7 @@ The site checker enforces a file allowlist for these references and fails on any
 ## Remaining boundaries
 
 The website and skill are not an account-based SaaS. Optional model APIs need the user's own credentials and may incur costs. Browser tests do not prove end-to-end behavior of every supported coding agent or availability of external photo/font/API providers. Legal attribution is retained deliberately; this is an independent derivative, not a claim of inventing the inherited catalog.
+
+## Remote verification
+
+The initial Slopless commit passed all GitHub CI jobs on Node 18, 20 and 22 plus Chrome browser QA. The published branch was also cloned by the actual skills CLI, which discovered exactly one skill named `slopless`. Public HTTP health checks run after GitHub Pages deployment; they do not require paid services or secrets.

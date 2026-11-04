@@ -11,10 +11,10 @@
 Requires **Node.js 18+**, Git, and a supported coding agent.
 
 ```sh
-npx skills add 'arbabtalha/slopless#arena/1bd20e2d-slopless' -g
+npx skills add arbabtalha/slopless -g
 ```
 
-The command explicitly selects the maintained working branch so it works before the pull request is merged. After merge, `npx skills add arbabtalha/slopless -g` can be used. Leave off `-g` for a project-local install, or add `--agent claude-code`, `codex`, `cursor`, or `opencode` to select one agent. No Slopless account or provider key is needed to install.
+Leave off `-g` for a project-local install, or add `--agent claude-code`, `codex`, `cursor`, or `opencode` to select one agent. No Slopless account or provider key is needed to install.
 
 | Agent | Invoke |
 | --- | --- |
@@ -25,7 +25,7 @@ The command explicitly selects the maintained working branch so it works before 
 From a checkout:
 
 ```sh
-git clone --branch arena/1bd20e2d-slopless https://github.com/arbabtalha/slopless.git
+git clone https://github.com/arbabtalha/slopless.git
 cd slopless
 node skills/slopless/scripts/install.mjs --claude --dry-run
 node skills/slopless/scripts/install.mjs --claude
@@ -33,15 +33,15 @@ node skills/slopless/scripts/install.mjs --claude
 
 Other targets: `--codex`, `--cursor`, or `--opencode --copy`. Reinstallation replaces only the selected Slopless copy. `--remove` removes installed Slopless copies, not unrelated skills.
 
-For a Claude Code plugin, add the local checkout as a marketplace:
+For a Claude Code plugin, add the repository as a marketplace:
 
 ```text
-/plugin marketplace add /absolute/path/to/slopless
+/plugin marketplace add arbabtalha/slopless
 /plugin install slopless@slopless
 /slopless:slopless a page for my project
 ```
 
-After merge, the remote marketplace is `arbabtalha/slopless`. The local skill installer works independently of marketplace support.
+You can also add an absolute local checkout path as a marketplace. The local skill installer works independently of marketplace support.
 
 ## What it does
 

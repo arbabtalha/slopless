@@ -95,7 +95,7 @@ try {
     // An explicit test stub verifies the exact payload without relying on headless clipboard permissions.
     await page.evaluate(()=>{Object.defineProperty(navigator,'clipboard',{configurable:true,value:{writeText:async(text)=>{window.copiedCommand=text;}}});});
     await page.click('#install [data-copy]');
-    assert.equal(await page.evaluate(()=>window.copiedCommand),"npx skills add 'arbabtalha/slopless#arena/1bd20e2d-slopless' -g");
+    assert.equal(await page.evaluate(()=>window.copiedCommand),"npx skills add arbabtalha/slopless -g");
     assert.equal(await page.$eval('#install [data-copy]',e=>e.textContent),'Copied');
   });
   await check('docs, credits, all fifty theme pages and all twenty-one examples load under a project subpath',async()=>{
