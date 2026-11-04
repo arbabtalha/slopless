@@ -17,7 +17,7 @@ node skills/slopless/scripts/sloplint.mjs ./index.html --kept</code></pre>
 node skills/slopless/scripts/sloplint.mjs ./src --json
 
 # Optional, real-browser checks:
-npm install -g puppeteer-core
+npm install -g puppeteer-core@24
 node skills/slopless/scripts/sloplint.mjs ./index.html --render</code></pre><p>Set <code>CHROME_PATH</code> if your browser is not in a standard location. <code>SLOPLESS_PUPPETEER</code> can point to a directory from which Node can resolve <code>puppeteer-core</code>. For example, use the project directory containing its <code>node_modules</code>, not the module entry file.</p><p>The edit-time Claude Code hook is opt-in:</p><pre tabindex="0" aria-label="Code example"><code>node skills/slopless/scripts/install-hook.mjs --print
 node skills/slopless/scripts/install-hook.mjs
 node skills/slopless/scripts/install-hook.mjs --remove</code></pre><p>The hook advises on edits; it is not a replacement for a final review. Browser measurements and automated lint do not guarantee a bug-free or accessible product.</p>

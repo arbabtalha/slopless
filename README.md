@@ -72,7 +72,7 @@ node skills/slopless/scripts/sloplint.mjs ./index.html --before
 node skills/slopless/scripts/sloplint.mjs ./index.html --kept
 
 # Optional browser checks: install puppeteer-core and Chrome/Chromium
-npm install -g puppeteer-core
+npm install -g puppeteer-core@24
 node skills/slopless/scripts/sloplint.mjs ./index.html --render
 
 # Optional Claude Code edit-time hook; inspect before installing
