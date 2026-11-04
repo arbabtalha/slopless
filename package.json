@@ -47,5 +47,8 @@
   "bugs": {
     "url": "https://github.com/arbabtalha/slopless/issues"
   },
-  "author": "arbabtalha"
+  "author": "arbabtalha",
+  "engines": {
+    "node": ">=18"
+  }
 }
